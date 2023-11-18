@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>添加联系人</title>
+</head>
+<body>
+<div class="container" style="text-align: center">
+    <h3>添加联系人页面</h3>
+    <form action="/TXL/addServlet" method="post">
+        <label for="name">姓名：</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="请输入姓名">
+        <br>
+        <br>
+        <label for="phone">电话：</label>
+        <input type="text" class="form-control" id="phone" name="phone" placeholder="请输入电话">
+        <br>
+        <br>
+        <div class="form-group" style="text-align: center">
+            <input class="btn btn-primary" type="submit" value="提交" />
+            <input class="btn btn-default" type="reset" value="重置" />
+        </div>
+    </form>
+</div>
+</body>
+</html>
